@@ -1,0 +1,16 @@
+Principais comandos do GIT 
+
+git - é um sistema de controle de revisão distribuído rápido, escalável e com um conjunto de comandos extraordinariamente rico que fornece operações de alto nível e acesso total aos internos.
+
+O Git utiliza estados para monitorar seus arquivos, com o “git status” é possível ter um controle do que está se passando em seu repositório, para entendermos melhor como funciona
+
+O comando “git add ” ou “git add .” (para todos os arquivos no repositório) monitora os arquivos e adiciona uma alteração dele no diretório à staging area, que é o local onde prepara os arquivos para o próximo commit.
+
+O “git commit” captura o estado atual do arquivo e adiciona as alterações para o histórico do repositório local atribuindo um hash como identificação, com o “–m” podemos adicionar uma descrição das mudanças realizadas.
+O “git remote” é utilizado para gerenciar os repositórios monitorados, o exemplo abaixo registra o repositório remoto e adiciona o endereço em “origin” onde passaremos o link que pode ser encontrado na aba code do nosso repositório no GitHub.
+
+Com o “git push –u origin ” podemos encaminhar as mudanças commitadas para o GitHub, nesse exemplo utilizaremos o branch padrão master.
+
+O comando pwd, é utilizado para descobrir em qual pasta você está comando de so.
+
+O git push -m faz o diretório do git compartilhar os dados com o github.
